@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  traceability graph  -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<graph edgedefault="undirected">
+
+<!-- data schema -->
+<key id="name" for="node" attr.name="name" attr.type="string"/>
+<key id="itemType" for="node" attr.name="itemType" attr.type="string"/>
+
+
+<node id="1">
+	<data key="name">Funcionalidade 1</data>
+	<data key="itemType">I</data>
+</node>
+<node id="2">
+	<data key="name">autor1</data>
+	<data key="itemType">A</data>
+</node>
+<node id="3">
+	<data key="name">autor2</data>
+	<data key="itemType">A</data>
+</node>
+<node id="4">
+	<data key="name">autor3</data>
+	<data key="itemType">A</data>
+</node>
+
+
+<!--Edges-->
+<edge source="1" target="2"></edge>
+<edge source="1" target="3"></edge>
+<edge source="1" target="4"></edge>
+
+</graph>
+</graphml>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  traceability graph  -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<graph edgedefault="undirected">
+
+<!-- data schema -->
+<key id="name" for="node" attr.name="name" attr.type="string"/>
+<key id="itemType" for="node" attr.name="itemType" attr.type="string"/>
+
+
+<node id="1">
+	<data key="name">RF destino; por unidade origem</data>
+	<data key="itemType">I</data>
+</node>
+
+
+<!--Edges-->
+
+</graph>
+</graphml>

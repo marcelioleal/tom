@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  traceability graph  -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<graph edgedefault="undirected">
+
+<!-- data schema -->
+<key id="name" for="node" attr.name="name" attr.type="string"/>
+<key id="itemType" for="node" attr.name="itemType" attr.type="int"/>
+<key id="originalArtifact" for="node" attr.name="originalArtifact" attr.type="String"/>
+
+
+<node id="1">
+	<data key="name">Consultar Alçadas</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="2">
+	<data key="name">Incluir Alçadas</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="3">
+	<data key="name">Alterar Alçadas</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="4">
+	<data key="name">Excluir Alçadas</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="5">
+	<data key="name">Consultar Comitê de Crédito</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="6">
+	<data key="name">Listar Atributos do Domínio</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="7">
+	<data key="name">Visualizar Atributo do Domínio</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="8">
+	<data key="name">Ordenar Atributos do Domínio</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="9">
+	<data key="name">Listar Atributos</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="10">
+	<data key="name">Visualizar Atributo</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="11">
+	<data key="name">Listar Configurações</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="12">
+	<data key="name">Conectar</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="13">
+	<data key="name">Desconectar</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="14">
+	<data key="name">Listar Grupo de Atributos</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="15">
+	<data key="name">Visualizar Grupo de Atributos</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="16">
+	<data key="name">Listar Tipos de Dados</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="17">
+	<data key="name">Visualizar Tipo de Dados</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="18">
+	<data key="name">Visualizar Parâmetro do Relatório</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="19">
+	<data key="name">Ordenar Parâmetros do Relatório</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="20">
+	<data key="name">Visualizar Sumário do Relatório</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="21">
+	<data key="name">Ordenar Sumários do Relatório</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="22">
+	<data key="name">Listar Menu de Relatórios</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="23">
+	<data key="name">Visualizar Menu de Relatórios</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="24">
+	<data key="name">Consultar Proposta/Contrato</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="25">
+	<data key="name">Incluir Associações de Eventos e Notificações</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="26">
+	<data key="name">Alterar Associações de Eventos e Notificações</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="27">
+	<data key="name">Excluir Associação de Evento e Notificação</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="28">
+	<data key="name">Consultar Associações de Eventos e Notificações</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="29">
+	<data key="name">Visualizar Associação de Evento e Notificação</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="30">
+	<data key="name">Incluir Eventos</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="31">
+	<data key="name">Alterar Eventos</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="32">
+	<data key="name">Excluir Evento</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="33">
+	<data key="name">Consultar Eventos</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="34">
+	<data key="name">Incluir Assinatura</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="35">
+	<data key="name">Alterar Assinatura</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="36">
+	<data key="name">Excluir Assinatura</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="37">
+	<data key="name">Incluir Minutas</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="38">
+	<data key="name">Alterar Minutas</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="39">
+	<data key="name">Consultar Minutas</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="40">
+	<data key="name">Visualizar Minuta</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="41">
+	<data key="name">Consultar Notificações</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="42">
+	<data key="name">Consultar Tipos de Minutas</data>
+	<data key="itemType">4</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="43">
+	<data key="name">Manter Alçadas</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="44">
+	<data key="name">Manter Participantes do Comitê de Crédito</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="45">
+	<data key="name">Manter Regras de Definição de Alçadas</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="46">
+	<data key="name">mail do Responsável:</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="47">
+	<data key="name">Manter Atributos</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="48">
+	<data key="name">Manter Configurações do Configurador</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="49">
+	<data key="name">Manter Grupos de Atributos</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="50">
+	<data key="name">Manter Tipo de Dados</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="51">
+	<data key="name">mail do Responsável:</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="52">
+	<data key="name">Manter Colunas de Relatórios</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="53">
+	<data key="name">Manter Parâmetros de Relatórios</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="54">
+	<data key="name">Manter Relatórios</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="55">
+	<data key="name">Manter Sumários de Relatórios</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="56">
+	<data key="name">Manter Menu de Relatórios</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="57">
+	<data key="name">mail do Responsável:</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="58">
+	<data key="name">Manter Dotações</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="59">
+	<data key="name">Manter Saldo das Fontes de Dotação</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="60">
+	<data key="name">mail do Responsável:</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="61">
+	<data key="name">Simular Dotação</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="62">
+	<data key="name">mail do Responsável:</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="63">
+	<data key="name">mail do Responsável:</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="64">
+	<data key="name">Manter Associação de Garantias à Proposta</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="65">
+	<data key="name">Manter Tipos de Garantias</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="66">
+	<data key="name">mail do Responsável:</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="67">
+	<data key="name">mail do Responsável:</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="68">
+	<data key="name">Manter Minutas</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="69">
+	<data key="name">Manter Notificações</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="70">
+	<data key="name">mail do Responsável:</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="71">
+	<data key="name">448dfrmtxtx15pvparaposy0phcolposx6336{*flymaincnt68flyvert64flyhorz0flyanchor4{cbpat10</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="72">
+	<data key="name">448dfrmtxtx15pvparaposy0phcolposx6336{*flymaincnt68flyvert64flyhorz0flyanchor4{cbpat10</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="73">
+	<data key="name">448dfrmtxtx15pvparaposy0phcolposx6336{*flymaincnt68flyvert64flyhorz0flyanchor4{cbpat10</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="74">
+	<data key="name">448dfrmtxtx15pvparaposy0phcolposx6336{*flymaincnt68flyvert64flyhorz0flyanchor4{cbpat10</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="75">
+	<data key="name">448dfrmtxtx15pvparaposy0phcolposx6336{*flymaincnt68flyvert64flyhorz0flyanchor4{cbpat10</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="76">
+	<data key="name">448dfrmtxtx15pvparaposy0phcolposx6336{*flymaincnt68flyvert64flyhorz0flyanchor4{cbpat10</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="77">
+	<data key="name">448dfrmtxtx15pvparaposy0phcolposx6336{*flymaincnt68flyvert64flyhorz0flyanchor4{cbpat10</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="78">
+	<data key="name">448dfrmtxtx15pvparaposy0phcolposx6336{*flymaincnt68flyvert64flyhorz0flyanchor4{cbpat10</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="79">
+	<data key="name">448dfrmtxtx15pvparaposy0phcolposx6336{*flymaincnt68flyvert64flyhorz0flyanchor4{cbpat10</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="80">
+	<data key="name">448dfrmtxtx15pvparaposy0phcolposx6336{*flymaincnt68flyvert64flyhorz0flyanchor4{cbpat10</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="81">
+	<data key="name">448dfrmtxtx15pvparaposy0phcolposx6336{*flymaincnt68flyvert64flyhorz0flyanchor4{cbpat10</data>
+	<data key="itemType">12</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="82">
+	<data key="name">Coordenador de Normatização</data>
+	<data key="itemType">3</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="83">
+	<data key="name">Usuário Final do Sistema</data>
+	<data key="itemType">3</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="84">
+	<data key="name">Analista de Sistemas</data>
+	<data key="itemType">3</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="85">
+	<data key="name">Usuário da Agência</data>
+	<data key="itemType">3</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="86">
+	<data key="name">Analista de Crédito</data>
+	<data key="itemType">3</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="87">
+	<data key="name">Supervisor de Crédito</data>
+	<data key="itemType">3</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="88">
+	<data key="name">Analista de Normas</data>
+	<data key="itemType">3</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="89">
+	<data key="name">Coordenador de Normas</data>
+	<data key="itemType">3</data>
+	<data key="originalArtifact">null</data>
+</node>
+<node id="90">
+	<data key="name">Usuário Final</data>
+	<data key="itemType">3</data>
+	<data key="originalArtifact">null</data>
+</node>
+
+
+<!--Edges-->
+<edge source="1" target="121"></edge>
+<edge source="1" target="43"></edge>
+<edge source="2" target="121"></edge>
+<edge source="2" target="43"></edge>
+<edge source="3" target="121"></edge>
+<edge source="3" target="43"></edge>
+<edge source="4" target="121"></edge>
+<edge source="4" target="43"></edge>
+<edge source="5" target="122"></edge>
+<edge source="5" target="44"></edge>
+<edge source="6" target="123"></edge>
+<edge source="6" target="46"></edge>
+<edge source="7" target="123"></edge>
+<edge source="7" target="46"></edge>
+<edge source="8" target="123"></edge>
+<edge source="8" target="46"></edge>
+<edge source="9" target="123"></edge>
+<edge source="9" target="47"></edge>
+<edge source="10" target="123"></edge>
+<edge source="10" target="47"></edge>
+<edge source="11" target="123"></edge>
+<edge source="11" target="48"></edge>
+<edge source="12" target="123"></edge>
+<edge source="12" target="48"></edge>
+<edge source="13" target="123"></edge>
+<edge source="13" target="48"></edge>
+<edge source="14" target="123"></edge>
+<edge source="14" target="49"></edge>
+<edge source="15" target="123"></edge>
+<edge source="15" target="49"></edge>
+<edge source="16" target="123"></edge>
+<edge source="16" target="50"></edge>
+<edge source="17" target="123"></edge>
+<edge source="17" target="50"></edge>
+<edge source="18" target="123"></edge>
+<edge source="18" target="53"></edge>
+<edge source="19" target="123"></edge>
+<edge source="19" target="53"></edge>
+<edge source="20" target="123"></edge>
+<edge source="20" target="55"></edge>
+<edge source="21" target="123"></edge>
+<edge source="21" target="55"></edge>
+<edge source="22" target="123"></edge>
+<edge source="22" target="56"></edge>
+<edge source="23" target="123"></edge>
+<edge source="23" target="56"></edge>
+<edge source="24" target="124"></edge>
+<edge source="24" target="125"></edge>
+<edge source="24" target="126"></edge>
+<edge source="24" target="64"></edge>
+<edge source="25" target="127"></edge>
+<edge source="25" target="128"></edge>
+<edge source="25" target="66"></edge>
+<edge source="26" target="128"></edge>
+<edge source="26" target="66"></edge>
+<edge source="27" target="128"></edge>
+<edge source="27" target="66"></edge>
+<edge source="28" target="127"></edge>
+<edge source="28" target="128"></edge>
+<edge source="28" target="66"></edge>
+<edge source="29" target="127"></edge>
+<edge source="29" target="128"></edge>
+<edge source="29" target="66"></edge>
+<edge source="30" target="127"></edge>
+<edge source="30" target="128"></edge>
+<edge source="30" target="67"></edge>
+<edge source="31" target="128"></edge>
+<edge source="31" target="67"></edge>
+<edge source="32" target="128"></edge>
+<edge source="32" target="67"></edge>
+<edge source="33" target="127"></edge>
+<edge source="33" target="128"></edge>
+<edge source="33" target="67"></edge>
+<edge source="34" target="127"></edge>
+<edge source="34" target="128"></edge>
+<edge source="34" target="67"></edge>
+<edge source="35" target="127"></edge>
+<edge source="35" target="128"></edge>
+<edge source="35" target="67"></edge>
+<edge source="36" target="128"></edge>
+<edge source="36" target="67"></edge>
+<edge source="37" target="127"></edge>
+<edge source="37" target="128"></edge>
+<edge source="37" target="68"></edge>
+<edge source="38" target="128"></edge>
+<edge source="38" target="68"></edge>
+<edge source="39" target="127"></edge>
+<edge source="39" target="128"></edge>
+<edge source="39" target="68"></edge>
+<edge source="40" target="127"></edge>
+<edge source="40" target="128"></edge>
+<edge source="40" target="68"></edge>
+<edge source="41" target="129"></edge>
+<edge source="41" target="127"></edge>
+<edge source="41" target="128"></edge>
+<edge source="41" target="69"></edge>
+<edge source="42" target="127"></edge>
+<edge source="42" target="128"></edge>
+<edge source="42" target="70"></edge>
+
+</graph>
+</graphml>

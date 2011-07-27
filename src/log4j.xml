@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="consoleAppender" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">      
+	    	<param name="ConversionPattern" value="%d{dd/MM/yyyy - HH:mm:ss,SSS} %-5p - %m%n"/>
+    	</layout>  
+    	<filter class="org.apache.log4j.varia.LevelRangeFilter">
+		    <param name="LevelMin" value="debug" />
+		    <param name="LevelMax" value="fatal" />
+		</filter>
+    </appender>
+    
+    <appender name="fileAppender" class="org.apache.log4j.FileAppender">    
+    	<param name="File" value="ossnetwork.log" />
+	    <param name="Append" value="true" />
+	    <layout class="org.apache.log4j.PatternLayout">
+	    	<param name="ConversionPattern" value="%d{yyyy-MM-dd - HH:mm:ss,SSS} %-5p - %m%n"/>
+    	</layout>  
+    	<filter class="org.apache.log4j.varia.LevelRangeFilter">
+		    <param name="LevelMin" value="debug" />
+		    <param name="LevelMax" value="fatal" />
+		</filter>
+    </appender>
+    
+	<!-- ************************ LOGGER PRINCIPAL ************************ -->
+    <category name="br.ufpa.di.ossnetwork" additivity="false">
+    	<priority value="debug"/>
+	    <appender-ref ref="consoleAppender"/>
+	    <appender-ref ref="fileAppender"/>
+    </category>
+    <!-- *********************************************************************** -->
+    
+	<!--  ********** CONFIGURAÇÃO DE LOGGERS DO HIBERNATE ********** -->
+    <category name="org.hibernate">
+    	<priority value="warn"/>
+    </category>
+    
+    <category name="org.hibernate.type">
+    	<priority value="warn"/>
+    </category>
+    
+    <category name="org.hibernate.tool.hbm2ddl">
+    	<priority value="warn"/>
+    </category>
+    
+    <!--  ********** DEMAIS CONFIGURAÇÃO DE LOGGERS ********** -->
+    <root>
+        <priority value="warn"/>
+        <appender-ref ref="consoleAppender"/>
+    </root>
+</log4j:configuration>

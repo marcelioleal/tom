@@ -1,0 +1,16 @@
+TRUNCATE u_actor;
+TRUNCATE u_association;
+TRUNCATE u_class;
+TRUNCATE u_classAttribute;
+TRUNCATE u_classOperation;
+TRUNCATE u_classOpParameter;
+TRUNCATE u_dataType;
+TRUNCATE u_extend;
+TRUNCATE u_feature;
+TRUNCATE u_generalization;
+TRUNCATE u_include;
+TRUNCATE u_item;
+TRUNCATE u_need;
+TRUNCATE u_requeriment;
+TRUNCATE u_subSystem;
+TRUNCATE u_usecase;
