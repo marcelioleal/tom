@@ -23,8 +23,8 @@ public class JPAUtil {
 
 	private static EntityManagerFactory getFactory() {
 		if (factory == null){
-			factory = Persistence.createEntityManagerFactory("tom");
-			//factory = Persistence.createEntityManagerFactory(nome, params);
+			//factory = Persistence.createEntityManagerFactory("tom");
+			factory = Persistence.createEntityManagerFactory(nome, params);
 		}
 		return factory;
 	}

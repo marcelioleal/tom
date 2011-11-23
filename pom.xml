@@ -32,11 +32,6 @@
             <version>1.2.11</version>
         </dependency>
         <dependency>
-            <groupId>javax.persistence</groupId>
-            <artifactId>persistence-api</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
             <groupId>org.prefuse</groupId>
             <artifactId>prefuse</artifactId>
             <version>beta-20071021</version>
@@ -66,6 +61,46 @@
 		    <artifactId>plexus-utils</artifactId>
 		    <version>1.1</version>
 		 </dependency>
+		 <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>3.3.2.GA</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-annotations</artifactId>
+            <version>3.4.0.GA</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>3.4.0.GA</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>3.1.0.GA</version>
+        </dependency>
+        <dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.5.8</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.5.8</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.9</version>
+		</dependency>
     </dependencies>
     
     <build>
@@ -83,12 +118,26 @@
 	    		<configuration>
 	    			<archive>
 		    			<manifest>
-	              			<addClasspath>true</addClasspath>
 	              			<mainClass>org.tom.Start</mainClass>
+	              			<addClasspath>true</addClasspath>
+	              			<classpathPrefix>lib/</classpathPrefix>
 	            		</manifest>
 	    			</archive>
 	    		</configuration>
 	    	</plugin>
+	    	<plugin>
+	            <artifactId>maven-assembly-plugin</artifactId>
+	            <configuration>
+	                <archive>
+	                    <manifest>
+	                        <mainClass>org.tom.Start</mainClass>
+	                    </manifest>
+	                </archive>
+	                <descriptorRefs>
+	                    <descriptorRef>jar-with-dependencies</descriptorRef>
+	                </descriptorRefs>
+	            </configuration>
+	        </plugin>
 	    </plugins>
     </build>
   
