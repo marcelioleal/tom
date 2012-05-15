@@ -2,4 +2,9 @@ TOM README
 
 Install Instructions
 
+1. Create a database tom
+2. Crate a user and password
+3. Import data to database
+4. Run tom.jar
+
 Configuration Instructions
