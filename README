@@ -1,10 +1,25 @@
 TOM README
 
+Download TOM
+
+https://www.dropbox.com/s/sxg3hzf02s1auj1/tom-1.0.jar
+
+
+Software Dependency
+
+1. MySQL 5 >
+2. Open Office
+3. Java 1.4 >
+
+
 Install Instructions
 
-1. Create a database tom
-2. Crate a user and password
+1. Create a database tom (user: root password: )
 3. Import data to database
+- https://github.com/marcelioleal/tom/blob/master/docs/tom.sql
 4. Run tom.jar
 
-Configuration Instructions
+
+Download Samples Artifacts
+
+https://www.dropbox.com/s/26h64a8s0y7rtzl/Examples.zip
